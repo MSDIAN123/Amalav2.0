@@ -47,7 +47,7 @@
             "required": true
         },
         "OWNER_ID": {
-            "description": "put your ID here get from @Missrosebot Ex: 555653637",
+            "description": "put your ID here get from @Missrosebot Ex: 5065752827",
             "required": true 
         }
     },
