@@ -34,9 +34,9 @@ BOT_NAME = getenv("BOT_NAME")
 
 #************************* Image Stuff 💕 **************************
 
-IMG_1 = getenv("IMG_1", "https://telegra.ph/file/d6f92c979ad96b2031cba.png")
-IMG_2 = getenv("IMG_2", "https://telegra.ph/file/6213d2673486beca02967.png")
-IMG_5 = getenv("IMG_5", "https://telegra.ph/file/d08d6474628be7571f013.png") 
+IMG_1 = getenv("IMG_1", "https://telegra.ph//file/252232ffc1e29f35cde27.jpg")
+IMG_2 = getenv("IMG_2", "https://telegra.ph//file/252232ffc1e29f35cde27.jpg")
+IMG_5 = getenv("IMG_5", "https://telegra.ph//file/a4920ccd56e4d4a09fd95.jpg") 
 aiohttpsession = aiohttp.ClientSession()
 
 
