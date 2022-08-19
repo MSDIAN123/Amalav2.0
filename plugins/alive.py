@@ -44,12 +44,12 @@ async def _human_time_duration(seconds):
 @Client.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/4963e9019e0328075e980.jpg",
-        caption=f"""**👋🏻 ʜᴇʟʟᴏ {message.from_user.mention()} ɪᴀᴍ ᴀ ᴛᴇʟᴜɢᴜ ᴄᴏᴅᴇʀs ᴛʜᴇᴍᴇᴅ ʀᴏʙᴏᴛ ɪ ᴄᴀɴ ᴘʟᴀʏ ᴍᴜsɪᴄ ɪɴ ᴛᴇʟᴇɢʀᴀᴍ ᴡɪᴛʜ ʜɪɢʜ ǫᴜᴀʟɪᴛʏ
+        photo=f"https://telegra.ph//file/252232ffc1e29f35cde27.jpg",
+        caption=f"""**👋🏻 ʜᴇʟʟᴏ {message.from_user.mention()} ɪᴀᴍ ᴀ ROY GANGs ᴛʜᴇᴍᴇᴅ ʀᴏʙᴏᴛ ɪ ᴄᴀɴ ᴘʟᴀʏ ᴍᴜsɪᴄ ɪɴ ᴛᴇʟᴇɢʀᴀᴍ ᴡɪᴛʜ ʜɪɢʜ ǫᴜᴀʟɪᴛʏ
 
 ɢʀᴏᴜᴘs ᴡɪᴛʜ sᴏᴍᴇ ᴜsᴇғᴜʟ ғᴇᴀᴛᴜʀᴇs.. ᴀɴʏ ʜᴇʟᴘ ʏᴏᴜ ᴡᴀɴᴛ ʜɪᴛ ᴛʜᴇ ʜᴇʟᴘ ᴄᴏᴍᴍᴀɴᴅ /help..
 
-ᴘᴏᴡᴇʀᴇᴅ ʙʏ : [ᴛᴇʟᴜɢᴜ ᴄᴏᴅᴇʀs](https://t.me/tgshadow_fighters)**
+ᴘᴏᴡᴇʀᴇᴅ ʙʏ : [AANDAVAR](https://t.me/tgshadow_fighters)**
 """,
     reply_markup=InlineKeyboardMarkup( [[
             InlineKeyboardButton("ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅs", callback_data="command_list"), 
@@ -68,7 +68,7 @@ async def start_(client: Client, message: Message):
 @Client.on_message(commandpro(["/alive"]) & filters.group & ~filters.edited)
 async def alive(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/4963e9019e0328075e980.jpg",
+        photo=f"https://telegra.ph//file/a4920ccd56e4d4a09fd95.jpg",
         caption=f"""ʜᴇʟʟᴏ {message.from_user.mention()} ɪᴀᴍ ᴀʟɪᴠᴇ ɴᴏᴡ 👻""",
         reply_markup=InlineKeyboardMarkup(
             [
@@ -84,7 +84,7 @@ async def alive(client: Client, message: Message):
 @Client.on_message(commandpro(["/repo", "#repo"]) & filters.group & ~filters.edited)
 async def repo(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://te.legra.ph/file/d65ba2c34eb7c058c1c32.jpg",
+        photo=f"https://telegra.ph//file/322a6a704a041d17f6cbd.jpg",
         caption=f"""ᴄʜᴇᴄᴋ ɴᴏɴᴏ✨""", 
         reply_markup=InlineKeyboardMarkup(
             [
@@ -100,7 +100,7 @@ async def repo(client: Client, message: Message):
 @Client.on_message(command("help") & filters.private & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/4963e9019e0328075e980.jpg",
+        photo=f"https://telegra.ph//file/0e4acf45253ddd7c08f81.jpg",
         caption=f""" ✨ **ʜᴇʟʟᴏ {message.from_user.mention()} !**\n
 ➠ **ᴛᴏ ᴋɴᴏᴡ ʜᴏᴡ ᴛᴏ sᴇᴛᴜᴘ ᴛʜɪs ʙᴏᴛ? ʀᴇᴀᴅ sᴇᴛᴛɪɴɢ ᴜᴘ ᴛʜɪs ʙᴏᴛ ɪɴ ɢʀᴏᴜᴘ **\n
 ➠ **ᴛᴏ ᴋɴᴏᴡ ᴘʟᴀʏ ᴀᴜᴅɪᴏ 🔊? ʀᴇᴀᴅ ǫᴜɪᴄᴋ ᴜsᴇ ᴄᴏᴍᴍᴀɴᴅs **\n
@@ -148,12 +148,12 @@ async def get_uptime(c: Client, message: Message):
     uptime_sec = (current_time - START_TIME).total_seconds()
     uptime = await _human_time_duration(int(uptime_sec))
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/4963e9019e0328075e980.jpg", 
-        caption=f""" 💞 **ᴛᴇʟᴜɢᴜ ᴄᴏᴅᴇʀs ʙᴏᴛ ᴜᴘᴛɪᴍᴇ**:\n
+        photo=f"https://telegra.ph//file/a4920ccd56e4d4a09fd95.jpg", 
+        caption=f""" 💞 **ROY GANGs ʙᴏᴛ ᴜᴘᴛɪᴍᴇ**:\n
 ➠ **ᴜᴘᴛɪᴍᴇ:** **{uptime}**\n
 ➠ **ᴜsᴇʀ:** **{message.from_user.mention()}**\n
 ➠ **sᴛᴀʀᴛ ᴛɪᴍᴇ:** **{START_TIME_ISO}**\n
-➠ **ᴘᴏᴡᴇʀᴇᴅ ʙʏ:** **[ᴛᴇʟᴜɢᴜ ᴄᴏᴅᴇʀs](https://t.me/tgshadow_fighters)**""", 
+➠ **ᴘᴏᴡᴇʀᴇᴅ ʙʏ:** **[AANDAVAR](https://t.me/tgshadow_fighters)**""", 
         reply_markup=InlineKeyboardMarkup(
             [
                 [
