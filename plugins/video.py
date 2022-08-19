@@ -188,7 +188,7 @@ async def vplay(c: Client, m: Message):
                 await m.reply_photo(
                     photo=image,
                     reply_markup=buttons,
-                    caption=f"**🍀ɴᴇxᴛ sᴏɴɢ ᴀᴛ ᴘᴏsɪᴛɪᴏɴ ɪɴ ᴛᴇʟᴜɢᴜ ᴄᴏᴅᴇʀs sᴇʀᴠᴇʀ... `{pos}` 🌷 ...**",
+                    caption=f"**🍀ɴᴇxᴛ sᴏɴɢ ᴀᴛ ᴘᴏsɪᴛɪᴏɴ ɪɴ ROY GANG sᴇʀᴠᴇʀ... `{pos}` 🌷 ...**",
                 )
             else:
                 results = YoutubeSearch(url, max_results=1).to_dict()
@@ -233,7 +233,7 @@ async def vplay(c: Client, m: Message):
                 await m.reply_photo(
                     photo=image,
                     reply_markup=buttons,
-                    caption=f"**🍃ᴀᴍᴀʟᴀ ʀᴏʙᴏᴛ ᴠɪᴅᴇᴏ ᴘʟᴀʏɪɴɢ ᴏɴ ᴛᴇʟᴜɢᴜ ᴄᴏᴅᴇʀs ᴘʀɪᴠᴀᴛᴇ sᴇʀᴠᴇʀ ...**",
+                    caption=f"**🍃MISS QUEEN  ᴠɪᴅᴇᴏ ᴘʟᴀʏɪɴɢ ᴏɴ ROY GANGs ᴘʀɪᴠᴀᴛᴇ sᴇʀᴠᴇʀ ...**",
                 )
         else:
             if len(m.command) < 2:
@@ -282,7 +282,7 @@ async def vplay(c: Client, m: Message):
                             await m.reply_photo(
                                 photo=image,
                                 reply_markup=buttons,
-                                caption=f"**🍀ɴᴇxᴛ sᴏɴɢ ᴀᴛ ᴘᴏsɪᴛɪᴏɴ ɪɴ ᴛᴇʟᴜɢᴜ ᴄᴏᴅᴇʀs sᴇʀᴠᴇʀ... `{pos}` 🌷 ...**",
+                                caption=f"**🍀ɴᴇxᴛ sᴏɴɢ ᴀᴛ ᴘᴏsɪᴛɪᴏɴ ɪɴ ROY GANGs sᴇʀᴠᴇʀ... `{pos}` 🌷 ...**",
                             )
                         else:
                             try:
@@ -313,7 +313,7 @@ async def vplay(c: Client, m: Message):
                                 await m.reply_photo(
                                     photo=image,
                                     reply_markup=buttons,
-                                    caption=f"**ᴀᴍᴀʟᴀ ʀᴏʙᴏᴛ ᴠɪᴅᴇᴏ ᴘʟᴀʏɪɴɢ ᴏɴ ᴛᴇʟᴜɢᴜ ᴄᴏᴅᴇʀs ᴘʀɪᴠᴀᴛᴇ sᴇʀᴠᴇʀ ...**",
+                                    caption=f"**MISS QUEEN ᴠɪᴅᴇᴏ ᴘʟᴀʏɪɴɢ ᴏɴ ROY GANGs ᴘʀɪᴠᴀᴛᴇ sᴇʀᴠᴇʀ ...**",
                                 )
                             except Exception as ep:
                                 await loser.delete()
@@ -366,7 +366,7 @@ async def vplay(c: Client, m: Message):
                         await m.reply_photo(
                             photo="final.png",
                             reply_markup=buttons,
-                            caption=f"**🍀ɴᴇxᴛ sᴏɴɢ ᴀᴛ ᴘᴏsɪᴛɪᴏɴ ɪɴ ᴛᴇʟᴜɢᴜ ᴄᴏᴅᴇʀs sᴇʀᴠᴇʀ... `{pos}` 🌷 ...**",
+                            caption=f"**🍀ɴᴇxᴛ sᴏɴɢ ᴀᴛ ᴘᴏsɪᴛɪᴏɴ ɪɴ ROY GANGs sᴇʀᴠᴇʀ... `{pos}` 🌷 ...**",
                         )
                     else:
                         try:
@@ -397,7 +397,7 @@ async def vplay(c: Client, m: Message):
                             await m.reply_photo(
                                 photo="final.png",
                                 reply_markup=buttons,
-                                caption=f"**ᴀᴍᴀʟᴀ ʀᴏʙᴏᴛ ᴠɪᴅᴇᴏ ᴘʟᴀʏɪɴɢ ᴏɴ ᴛᴇʟᴜɢᴜ ᴄᴏᴅᴇʀs ᴘʀɪᴠᴀᴛᴇ sᴇʀᴠᴇʀ ...**",
+                                caption=f"**MISS QUEEN ᴠɪᴅᴇᴏ ᴘʟᴀʏɪɴɢ ᴏɴ ROY GANGs ᴘʀɪᴠᴀᴛᴇ sᴇʀᴠᴇʀ ...**",
                             )
                         except Exception as ep:
                             await loser.delete()
@@ -518,7 +518,7 @@ async def vstream(c: Client, m: Message):
                 await m.reply_photo(
                     photo=f"{IMG_1}",
                     reply_markup=buttons,
-                    caption=f"**🍀ɴᴇxᴛ sᴏɴɢ ᴀᴛ ᴘᴏsɪᴛɪᴏɴ ɪɴ ᴛᴇʟᴜɢᴜ ᴄᴏᴅᴇʀs sᴇʀᴠᴇʀ... `{pos}` 🌷 ...**",
+                    caption=f"**🍀ɴᴇxᴛ sᴏɴɢ ᴀᴛ ᴘᴏsɪᴛɪᴏɴ ɪɴ ROY GANGs sᴇʀᴠᴇʀ... `{pos}` 🌷 ...**",
                 )
             else:
                 if Q == 720:
@@ -554,7 +554,7 @@ async def vstream(c: Client, m: Message):
                     await m.reply_photo(
                         photo=f"{IMG_2}",
                         reply_markup=buttons,
-                        caption=f"**🔥ᴀᴍᴀʟᴀ ɴᴏᴡ sᴛʀᴇᴀᴍɪɴɢ ᴏɴ ᴀᴍᴀʟᴀ ᴘʀɪᴠᴀᴛᴇ sᴇʀᴠᴇʀ 🍃**",
+                        caption=f"**🔥MISS  QUEEN ɴᴏᴡ sᴛʀᴇᴀᴍɪɴɢ ᴏɴ ROY GANG ᴘʀɪᴠᴀᴛᴇ sᴇʀᴠᴇʀ 🍃**",
                     )
                 except Exception as ep:
                     await loser.delete()
