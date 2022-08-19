@@ -13,13 +13,13 @@ admins = {}
 API_ID = int(getenv("API_ID"))
 API_HASH = getenv("API_HASH")
 BOT_TOKEN = getenv("BOT_TOKEN")
-DURATION_LIMIT = int(getenv("DURATION_LIMIT", "300"))
+DURATION_LIMIT = int(getenv("DURATION_LIMIT", "500"))
 STRING_SESSION = getenv("STRING_SESSION")
 BOT_USERNAME = getenv("BOT_USERNAME")
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ ! .").split())
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5556040702 5589457533 5566634044").split()))
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "1803475435 5411211921 539479731").split()))
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "5566634044").split())
+    map(int, getenv("OWNER_ID", "5065752827").split())
 )  # Input type must be interger
 
 #•••••••••••••••••••••••• Mongodb Url Stuff •••••••••••••••••••••••
