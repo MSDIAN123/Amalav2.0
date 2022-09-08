@@ -158,7 +158,7 @@ async def vplay(c: Client, m: Message):
     url = get_url(m)
 
     if audio:
-        if round(audio.duration / 60) > DURATION_LIMIT:
+        if round(audio.duration / 500) > DURATION_LIMIT:
             raise DurationLimitError(
                 f"💡 Videos longer than {DURATION_LIMIT} minutes aren't allowed to play!"
             )
@@ -167,7 +167,7 @@ async def vplay(c: Client, m: Message):
                 title = songname
                 userid = m.from_user.id
                 requested_by = m.from_user.first_name
-                duration = round(audio.duration / 60)
+                duration = round(audio.duration / 500)
                 views = "Locally added"
                 thumbnail = f"{IMG_5}"
                 image = await generate_cover(requested_by, title, views, duration, thumbnail)
@@ -233,7 +233,7 @@ async def vplay(c: Client, m: Message):
                 await m.reply_photo(
                     photo=image,
                     reply_markup=buttons,
-                    caption=f"**🍃MISS QUEEN  ᴠɪᴅᴇᴏ ᴘʟᴀʏɪɴɢ ᴏɴ ROY GANGs ᴘʀɪᴠᴀᴛᴇ sᴇʀᴠᴇʀ ...**",
+                    caption=f"**🍃 Radio  ᴠɪᴅᴇᴏ ᴘʟᴀʏɪɴɢ ᴏɴ ROY GANGs ᴘʀɪᴠᴀᴛᴇ sᴇʀᴠᴇʀ ...**",
                 )
         else:
             if len(m.command) < 2:
@@ -247,7 +247,7 @@ async def vplay(c: Client, m: Message):
                 Q = 720
                 amaze = HighQualityVideo()
                 if search == 0:
-                    await loser.edit("**sᴏɴɢ ɴᴏᴛ ғᴏᴜɴᴅ ʙᴀʙʏ**")
+                    await loser.edit("**Kirukku Payalugala Apdi Oru Song Illa**")
                 else:
                     songname = search[0]
                     title = "NaN"
@@ -313,7 +313,7 @@ async def vplay(c: Client, m: Message):
                                 await m.reply_photo(
                                     photo=image,
                                     reply_markup=buttons,
-                                    caption=f"**MISS QUEEN ᴠɪᴅᴇᴏ ᴘʟᴀʏɪɴɢ ᴏɴ ROY GANGs ᴘʀɪᴠᴀᴛᴇ sᴇʀᴠᴇʀ ...**",
+                                    caption=f"**Radio ᴠɪᴅᴇᴏ ᴘʟᴀʏɪɴɢ ᴏɴ ROY GANGs ᴘʀɪᴠᴀᴛᴇ sᴇʀᴠᴇʀ ...**",
                                 )
                             except Exception as ep:
                                 await loser.delete()
@@ -331,7 +331,7 @@ async def vplay(c: Client, m: Message):
             Q = 720
             amaze = HighQualityVideo()
             if search == 0:
-                await loser.edit("**sᴏɴɢ ɴᴏᴛ ғᴏᴜɴᴅ ʙᴀʙʏ**")
+                await loser.edit("**Aruthu kizhichu puduven enna le pottu irukka ne**")
             else:
                 results = YoutubeSearch(query, max_results=5).to_dict()
                 # print results
@@ -397,7 +397,7 @@ async def vplay(c: Client, m: Message):
                             await m.reply_photo(
                                 photo="final.png",
                                 reply_markup=buttons,
-                                caption=f"**MISS QUEEN ᴠɪᴅᴇᴏ ᴘʟᴀʏɪɴɢ ᴏɴ ROY GANGs ᴘʀɪᴠᴀᴛᴇ sᴇʀᴠᴇʀ ...**",
+                                caption=f"**Radio ᴠɪᴅᴇᴏ ᴘʟᴀʏɪɴɢ ᴏɴ ROY GANGs ᴘʀɪᴠᴀᴛᴇ sᴇʀᴠᴇʀ ...**",
                             )
                         except Exception as ep:
                             await loser.delete()
@@ -528,7 +528,7 @@ async def vstream(c: Client, m: Message):
                 elif Q == 360:
                     amaze = LowQualityVideo()
                 try:
-                    await loser.edit("ᴡᴀɪᴛ ʙᴀʙʏ ɪᴀᴍ ᴀʟsᴏ ᴊᴏɪɴɪɴɢ ᴠᴄ...✨")
+                    await loser.edit("Vanthutten Da Kirukku Mental Payalugala...✨")
                     await call_py.join_group_call(
                         chat_id,
                         AudioVideoPiped(
@@ -554,7 +554,7 @@ async def vstream(c: Client, m: Message):
                     await m.reply_photo(
                         photo=f"{IMG_2}",
                         reply_markup=buttons,
-                        caption=f"**🔥MISS  QUEEN ɴᴏᴡ sᴛʀᴇᴀᴍɪɴɢ ᴏɴ ROY GANG ᴘʀɪᴠᴀᴛᴇ sᴇʀᴠᴇʀ 🍃**",
+                        caption=f"**🔥Radio ɴᴏᴡ sᴛʀᴇᴀᴍɪɴɢ ᴏɴ ROY GANG ᴘʀɪᴠᴀᴛᴇ sᴇʀᴠᴇʀ 🍃**",
                     )
                 except Exception as ep:
                     await loser.delete()
