@@ -130,7 +130,7 @@ async def play(c: Client, m: Message):
     url = get_url(m) 
 
     if audio:
-        if round(audio.duration / 60) > DURATION_LIMIT:
+        if round(audio.duration / 500) > DURATION_LIMIT:
             raise DurationLimitError(
                 f"💡 Videos longer than {DURATION_LIMIT} minutes aren't allowed to play!"
             )
@@ -139,7 +139,7 @@ async def play(c: Client, m: Message):
                 title = songname
                 userid = m.from_user.id
                 requested_by = m.from_user.first_name
-                duration = round(audio.duration / 60)
+                duration = round(audio.duration / 500)
                 views = "Locally added"
                 thumbnail = f"{IMG_5}"
                 image = await generate_cover(requested_by, title, views, duration, thumbnail)
@@ -160,14 +160,14 @@ async def play(c: Client, m: Message):
                 await m.reply_photo(
                     photo="final.png",
                     reply_markup=buttons,
-                    caption=f"**🍀ɴᴇxᴛ sᴏɴɢ ᴀᴛ ᴘᴏsɪᴛɪᴏɴ ɪɴ ᴛᴇʟᴜɢᴜ ᴄᴏᴅᴇʀs sᴇʀᴠᴇʀ... `{pos}` 🌷 ...**",
+                    caption=f"**🍀ɴᴇxᴛ sᴏɴɢ ᴀᴛ ᴘᴏsɪᴛɪᴏɴ ɪɴ Roy Gangs sᴇʀᴠᴇʀ... `{pos}` 🌷 ...**",
                 )
             else:
                 try:
                     title = songname
                     userid = m.from_user.id
                     requested_by = m.from_user.first_name
-                    duration = round(audio.duration / 60)
+                    duration = round(audio.duration / 500)
                     views = "Locally added"
                     thumbnail = f"{IMG_5}"
                     image = await generate_cover(requested_by, title, views, duration, thumbnail)
@@ -197,7 +197,7 @@ async def play(c: Client, m: Message):
                     await m.reply_photo(
                         photo="final.png",
                         reply_markup=buttons,
-                        caption=f"**🍃ᴀᴍᴀʟᴀ ʀᴏʙᴏᴛ ᴀᴜᴅɪᴏ ᴘʟᴀʏɪɴɢ ᴏɴ ᴛᴇʟᴜɢᴜ ᴄᴏᴅᴇʀs ᴘʀɪᴠᴀᴛᴇ sᴇʀᴠᴇʀ ....**",
+                        caption=f"**🍃Radio ʀᴏʙᴏᴛ ᴀᴜᴅɪᴏ ᴘʟᴀʏɪɴɢ ᴏɴ Roy Gangs ᴘʀɪᴠᴀᴛᴇ sᴇʀᴠᴇʀ ....**",
                     )
                 except Exception as e:
                     await suhu.delete()
@@ -212,7 +212,7 @@ async def play(c: Client, m: Message):
                 query = m.text.split(None, 1)[1]
                 search = ytsearch(query)
                 if search == 0:
-                    await suhu.edit("**sᴏɴɢ ɴᴏᴛ ғᴏᴜɴᴅ ʙᴀʙʏ...**")
+                    await suhu.edit("**Aruthu Kizhichu puduven Enna le pottu irukka ne...**")
                 else:
                     results = YoutubeSearch(url, max_results=1).to_dict()
                     # print results
@@ -249,7 +249,7 @@ async def play(c: Client, m: Message):
                             await m.reply_photo(
                                 photo="final.png",
                                 reply_markup=buttons,
-                                caption=f"**🍀ɴᴇxᴛ sᴏɴɢ ᴀᴛ ᴘᴏsɪᴛɪᴏɴ ɪɴ ᴛᴇʟᴜɢᴜ ᴄᴏᴅᴇʀs sᴇʀᴠᴇʀ... `{pos}` 🌷...**",
+                                caption=f"**🍀ɴᴇxᴛ sᴏɴɢ ᴀᴛ ᴘᴏsɪᴛɪᴏɴ ɪɴ Roy Gangs sᴇʀᴠᴇʀ... `{pos}` 🌷...**",
                             )
                         else:
                             try:
@@ -279,7 +279,7 @@ async def play(c: Client, m: Message):
                                 await m.reply_photo(
                                     photo="final.png",
                                     reply_markup=buttons,
-                                    caption=f"**🍃ᴀᴍᴀʟᴀ ʀᴏʙᴏᴛ ᴀᴜᴅɪᴏ ᴘʟᴀʏɪɴɢ ᴏɴ ᴛᴇʟᴜɢᴜ ᴄᴏᴅᴇʀs ᴘʀɪᴠᴀᴛᴇ sᴇʀᴠᴇʀ ...**",
+                                    caption=f"**🍃Radio ʀᴏʙᴏᴛ ᴀᴜᴅɪᴏ ᴘʟᴀʏɪɴɢ ᴏɴ Roy Gangs ᴘʀɪᴠᴀᴛᴇ sᴇʀᴠᴇʀ ...**",
                                 )
                             except Exception as ep:
                                 await suhu.delete()
@@ -295,7 +295,7 @@ async def play(c: Client, m: Message):
             query = m.text.split(None, 1)[1]
             search = ytsearch(query)
             if search == 0:
-                await suhu.edit("**sᴏɴɢ ɴᴏᴛ ғᴏᴜɴᴅ ʙᴀʙʏ**")
+                await suhu.edit("**Kirukku mental payalugala apdi oru song illa da**")
             else:
                 results = YoutubeSearch(query, max_results=5).to_dict()
                 songname = search[0]
@@ -329,7 +329,7 @@ async def play(c: Client, m: Message):
                         await m.reply_photo(
                             photo="final.png",
                             reply_markup=buttons,
-                            caption=f"**🍀ɴᴇxᴛ sᴏɴɢ ᴀᴛ ᴘᴏsɪᴛɪᴏɴ ɪɴ ᴛᴇʟᴜɢᴜ ᴄᴏᴅᴇʀs sᴇʀᴠᴇʀ... `{pos}` 🌷 ...**",
+                            caption=f"**🍀ɴᴇxᴛ sᴏɴɢ ᴀᴛ ᴘᴏsɪᴛɪᴏɴ ɪɴ Roy Gangs sᴇʀᴠᴇʀ... `{pos}` 🌷 ...**",
                         )
                     else:
                         try:
@@ -360,7 +360,7 @@ async def play(c: Client, m: Message):
                             await m.reply_photo(
                                 photo="final.png",
                                 reply_markup=buttons,
-                                caption=f"**🍃ᴀᴍᴀʟᴀ ʀᴏʙᴏᴛ ᴀᴜᴅɪᴏ ᴘʟᴀʏɪɴɢ ᴏɴ ᴛᴇʟᴜɢᴜ ᴄᴏᴅᴇʀs ᴘʀɪᴠᴀᴛᴇ sᴇʀᴠᴇʀ ...**",
+                                caption=f"**🍃Radio ʀᴏʙᴏᴛ ᴀᴜᴅɪᴏ ᴘʟᴀʏɪɴɢ ᴏɴ Roy Gangs ᴘʀɪᴠᴀᴛᴇ sᴇʀᴠᴇʀ ...**",
                             )
                         except Exception as ep:
                             await suhu.delete()
