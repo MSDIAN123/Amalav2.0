@@ -1,9 +1,9 @@
 {
-    "name": "Telugu coders",
-    "logo": "https://telegra.ph//file/3053007b1f547375a4c65.jpg",
+    "name": "Radio Music",
+    "logo": "https://telegra.ph//file/ef5d2dcb34703be7a23eb.jpg",
     "description": "An Advanced Premium Music Bot For Telegram Groups VC.",
     "keywords": ["music", "voice chat", "telegram"],
-    "repository": "https://github.com/TeluguCodersMusic/Amalav2.0",
+    "repository": "https://GIRLSSAFEZONE",
     "stack": "container",
     "env": {
         "API_ID": {
